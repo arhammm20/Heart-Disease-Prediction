@@ -1,11 +1,15 @@
 # ❤️ Heart Disease Prediction System
 
-## 📌 Overview
+## Overview
 
 The Heart Disease Prediction System is a Machine Learning-based application that predicts the likelihood of heart disease in a patient based on medical attributes. The goal of this project is to assist in early detection and provide data-driven insights for better decision-making.
 
 
-## 🚀 Features
+## Live Demo
+👉 https://heart-disease-prediction-byarhamfarooqui.streamlit.app
+
+
+## Features
 
 * Predicts heart disease risk using a trained Machine Learning model
 * Interactive web interface built with Streamlit
@@ -14,14 +18,14 @@ The Heart Disease Prediction System is a Machine Learning-based application that
 * Fast and accurate predictions
 
 
-## 🧠 Machine Learning Model
+## Machine Learning Model
 
 * Model: Logistic Regression
 * Data Scaling: StandardScaler
 * Libraries: Scikit-learn, Pandas, NumPy
 
 
-## 📊 Input Features
+## Input Features
 
 The model takes the following inputs:
 
@@ -38,7 +42,7 @@ The model takes the following inputs:
 * ST Slope
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Python
 * Streamlit
@@ -48,63 +52,25 @@ The model takes the following inputs:
 * Joblib
 
 
-## 📁 Project Structure
-
-```
-heart-disease-prediction/
-│
-├── app.py              # Streamlit application
-├── model.pkl          # Trained model file
-├── scaler.pkl         # Scaler object
-├── columns.pkl        # Feature columns
-├── requirements.txt   # Dependencies
-└── README.md          # Project documentation
-```
-
----
-
-## ⚙️ Installation & Setup
-
-### 1. Clone the repository
-
-```
-git clone https://github.com/your-username/heart-disease-prediction.git
-cd heart-disease-prediction
-```
-
-### 2. Install dependencies
-
-```
-pip install -r requirements.txt
-```
-
-### 3. Run the application
-
-```
-streamlit run app.py
-```
-
-
-## 💻 Usage
+## Usage
 
 1. Enter the required medical details in the input fields
 2. Click on the **Predict** button
 3. View the prediction result (risk of heart disease)
 
 
-## 📈 Future Improvements
+## Future Improvements
 
 * Implement advanced models like Random Forest and XGBoost
 * Improve UI/UX design
-* Deploy on cloud platforms (AWS, Render, Streamlit Cloud)
 * Add model explainability using SHAP or LIME
 
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This project is for educational purposes only and should not be used as a substitute for professional medical advice.
 
 
-## 🙌 Author
+## Author
 
 **Arham Farooqui**
